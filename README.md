@@ -25,3 +25,9 @@ Angular 2 comes with almost everything you need to build a complicated frontend 
     * typings.json
     * systemjs.config.js
     * index.html
+
+ - Run the Application
+
+    * Open Command prompt and change the directory to the application folder 
+    * type npm install      - it will install all packages and node_modules.
+    * then npm start
