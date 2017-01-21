@@ -15,7 +15,10 @@ Angular 2 comes with almost everything you need to build a complicated frontend 
  * Supports Latest Features of ECMASCRIPT.
 
 # How to setup Angular 2?
-
+ - Prerequisites
+  * Install node.js latest version.
+  * Clone the project into your local repository.
+  
  - Application Folder Structure: 
     * app/app.module.ts
     * app/app.component.ts
