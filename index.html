@@ -4,9 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- build:css ./styles/app.css -->
 	<link rel="stylesheet" href="./styles/main.css">
-
-	<script type="text/javascript" src="node_modules/core-js/client/shim.min.js"></script>
+	<!-- endbuild -->
+	<!-- build:js ./scripts/libmain.js -->
+	<script type="text/javascript" src="./scripts/shim.min.js"></script>
+	<script type="text/javascript" src="./scripts/jquery.min.js"></script>
+	<!-- build:remove -->
 	<script type="text/javascript" src="node_modules/zone.js/dist/zone.js"></script>
 	<script type="text/javascript" src="node_modules/reflect-metadata/Reflect.js"></script>
 	<script type="text/javascript" src="node_modules/systemjs/dist/system.src.js"></script>
@@ -14,6 +18,9 @@
 	<script type="text/javascript">
 		System.import('app').catch(function (err) { console.error(err); });
 	</script>
+	<!-- endbuild -->
+	<!-- inject:js -->
+	<!-- endinject -->
 </head>
 <body>
 	<seed-app>Loading...</seed-app>
